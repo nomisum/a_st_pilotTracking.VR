@@ -8,30 +8,46 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=3;
+		nextID=7;
 	};
 	class Camera
 	{
-		pos[]={6439.0889,15,4544.3145};
-		dir[]={0.44686466,-0.29559985,-0.8443566};
-		up[]={0.13827209,0.95531076,-0.26126674};
-		aside[]={-0.88385391,8.1490725e-010,-0.46776855};
+		pos[]={6443.1226,7.8428354,4528.7798};
+		dir[]={0.67604941,-0.31228969,-0.66741627};
+		up[]={0.22223924,0.9499808,-0.21940225};
+		aside[]={-0.70255321,1.0069925e-007,-0.71164268};
 	};
 };
 binarizationWanted=0;
 addons[]=
 {
-	"A3_Characters_F"
+	"A3_Characters_F",
+	"A3_Misc_F_Helpers",
+	"A3_Structures_F_Heli_VR_Helpers"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=1;
+		items=3;
 		class Item0
 		{
 			className="A3_Characters_F";
 			name="Arma 3 Alpha - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item1
+		{
+			className="A3_Misc_F";
+			name="Arma 3 - 3D Aids and Helpers";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item2
+		{
+			className="A3_Structures_F_Heli";
+			name="Arma 3 Helicopters - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
@@ -65,7 +81,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=1;
+		items=2;
 		class Item0
 		{
 			dataType="Group";
@@ -156,6 +172,21 @@ class Mission
 			{
 			};
 			id=0;
+		};
+		class Item1
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6445.8687,5,4525.4546};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=6;
+			type="Sign_Sphere10cm_F";
 		};
 	};
 };

@@ -3,6 +3,8 @@ params ["_unit", "_blood"];
 private _timestamp = _blood getVariable ["GRAD_pilotTracking_bloodDropTimestamp",-1];
 private _delta = CBA_missionTime - _timestamp;
 
+_unit action ["TakeFlag", objNull];
+
 if (_timestamp < 0) exitWith { hint "can't read this blood"; };
 
 if (_delta > 30*60) then {
