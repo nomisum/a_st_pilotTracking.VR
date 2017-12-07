@@ -1,0 +1,10 @@
+enableDebugConsole = 1;
+
+class cfgFunctions {
+    #include "grad_pilotTracking\cfgFunctions.hpp"
+
+};
+
+class rscTitles {  
+    #include "grad_pilotTracking\rscTitles.hpp"
+};
